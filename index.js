@@ -14,5 +14,5 @@ app.get("/", (req, res) => {
 
 // Start the server and listen on the specified port
 let server = app.listen(port, () => {
-  console.log("Listening at http://localhost:" + port + " you piece of shit");
+  console.log("I'm listening at http://localhost:" + port + " you piece of shit");
 });
